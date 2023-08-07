@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "sourceRoot": "./src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "declaration": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "./dist/*.**"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@and2long/lib-commons",
+  "title": "Lib Commons",
+  "version": "0.0.1",
+  "description": "Lib Commons",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist/ && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and2long/lib-commons.git",
+    "baseUrl": "https://github.com/and2long/lib-commons"
+  },
+  "keywords": [
+    "lib-commons"
+  ],
+  "author": {
+    "name": "and2long",
+    "email": "and2long@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
