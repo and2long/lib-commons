@@ -1,7 +1,7 @@
 {
   "name": "@and2long/lib-commons",
   "title": "Lib Commons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Lib Commons",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,6 +24,7 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "devDependencies": {
+    "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   },
   "dependencies": {

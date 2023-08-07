@@ -3,3 +3,5 @@ dist/
 .DS_Store
 .idea/
 *.iml
+package-lock.json
+yarn.lock
